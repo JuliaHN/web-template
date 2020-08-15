@@ -5,18 +5,28 @@
   "author": "Vlad V",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "dev": "webpack-dev-server --open"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",
     "@babel/preset-env": "^7.11.0",
     "autoprefixer": "^9.8.6",
     "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
     "css-loader": "^4.2.1",
+    "eslint": "^7.7.0",
+    "eslint-loader": "^4.0.2",
     "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
     "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
     "style-loader": "^1.2.1",
+    "stylelint": "^13.6.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-webpack-plugin": "^2.1.0",
     "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   }
 }
